@@ -1,0 +1,2 @@
+# Aut0 Allowed Web Origins Container
+This is a docker container Github Action that supports updating the Allowed Web Origins property of an Auth0 application during a deployment process. The main purpose of this is to support ephemeral environments where subdomain changes can cause breaking authentication flows due to a more secure Allowed Web Origins property (not accepting wildcards).
